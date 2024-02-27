@@ -33,7 +33,7 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 60px 0;
+  padding: 160px 20px;
 }
 
 .hero p {
@@ -77,9 +77,42 @@ p {
   padding: 20px 60px;
 }
 
-@media (max-width: 960px) {
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.about-section h1 {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-famiy);
+}
+
+.about-section p {
+  line-height: 27px;
+}
+
+.about-section img {
+  margin-top: 40px;
+}
+
+@media (max-width: 900px) {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
